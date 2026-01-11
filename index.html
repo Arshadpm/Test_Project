@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Graphics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-[Nunito,sans-serif] md:flex">
+    <div class="bg-white text-gray-900 w-7/12">
+      <!-- ================= NAVBAR ================= -->
+      <header class="flex items-center justify-between pl-20 pr-12 pt-8 pb-6">
+        <!-- Logo -->
+        <div class="flex items-center gap-3">
+          <img src="./assets/vectors/Logo.svg" alt="Logo" class="w-16 h-16" />
+          <span class="font-semibold text-xl text-[#1A1A1A] mt-3 md:mr-5"
+            >Hello World!</span
+          >
+        </div>
+
+        <!-- Menu -->
+        <nav class="hidden md:flex gap-10 text-lg text-gray-500">
+          <button class="hover:text-gray-900 transition-colors">Course</button>
+          <button class="hover:text-gray-900 transition-colors">Info</button>
+          <button class="hover:text-gray-900 transition-colors">Testimonial</button>
+          <button class="hover:text-gray-900 transition-colors">Categories</button>
+        </nav>
+      </header>
+
+      <!-- ================= HERO CONTENT ================= -->
+      <main class="pl-20 pr-16 pt-8 max-w-3xl">
+        <!-- Heading -->
+        <div class="flex items-center gap-2">
+          <h1 class="text-5xl font-bold leading-tight">
+            LEARN GRAPHICS<br />
+            DESIGN FOR LIFE
+          </h1>
+          <img
+            src="./assets/vectors/Graphics.svg"
+            alt="Graphics"
+            class="w-10 h-10 mt-10"
+          />
+        </div>
+
+        <!-- Description -->
+        <p class="mt-6 text-sm text-normal text-[#2D3134] leading-relaxed">
+          Stay Informed, Stay Ahead: Unveiling the Future of Technology,
+          Gadgets, and<br />Innovation<br />
+          Your Gateway to the Digital Universe - Where Innovation Meets Insight
+        </p>
+
+        <!-- Students -->
+        <div class="flex items-center gap-6 mt-10">
+          <div>
+            <p class="text-3xl font-semibold">5.1 K</p>
+            <p class="text-md text-gray-500">Students All<br />Over World</p>
+          </div>
+
+          <!-- Avatar placeholders -->
+          <div class="flex -space-x-6">
+            <img
+              src="./assets/images/Student1.png"
+              alt="Student 1"
+              class="w-20 h-20 rounded-full border-3 border-white object-cover"
+            />
+            <img
+              src="./assets/images/Student2.png"
+              alt="Student 2"
+              class="w-20 h-20 rounded-full border-3 border-white object-cover"
+            />
+            <img
+              src="./assets/images/Student3.png"
+              alt="Student 3"
+              class="w-20 h-20 rounded-full border-3 border-white object-cover"
+            />
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="flex items-center gap-6 my-16">
+          <button
+            class="px-3 py-4 bg-[#2F584E] text-white rounded-full w-full text-lg w-full max-w-[220px] h-[60px]"
+          >
+            Book Your Seat
+          </button>
+
+        <button class="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">
+            <img
+                src="./assets/vectors/Journey.svg"
+                alt="Journey"
+                class="w-12 h-12"
+            />
+            <span class="text-lg font-semibold text-[#000000]"
+                >See Journey</span
+            >
+        </button>
+        </div>
+      </main>
+
+      <!-- ==================STATS SECTION ================= -->
+
+      <section class="bg-orange-400 px-20 py-10">
+        <div class="flex items-center justify-between text-white">
+          <!-- Item 1 -->
+          <div class="flex items-center gap-6">
+            <span class="w-[3px] h-20 bg-[#F7BE2C]"></span>
+            <div>
+              <p class="text-4xl font-semibold">6409</p>
+              <p class="text-md mt-1">Succes Story</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="flex items-center gap-6">
+            <span class="w-[3px] h-20 bg-[#F7BE2C]"></span>
+            <div>
+              <p class="text-4xl font-semibold">124</p>
+              <p class="text-md mt-1">Expert Instructor</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="flex items-center gap-6">
+            <span class="w-[3px] h-20 bg-[#F7BE2C]"></span>
+            <div>
+              <p class="text-4xl font-semibold">54.749</p>
+              <p class="text-md mt-1">Hours Tutored</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="w-5/12 relative bg-blue-50">
+      <div
+        class="w-full min-h-screen bg-cover bg-center px-6 pt-10 pb-4"
+        style="background-image: url('./assets/images/Background.png')"
+      >
+        <!-- Image container -->
+        <div class="flex flex-wrap justify-between gap-y-5 max-w-5xl mx-auto">
+          <!-- Row 1 -->
+          <img
+            src="./assets/images/Instructor1.png"
+            alt="Instructor 1"
+            class="w-[48%] h-[48%] rounded-3xl object-cover"
+          />
+          <img
+            src="./assets/images/Instructor2.png"
+            alt="Instructor 2"
+            class="w-[48%] h-[48%] rounded-3xl object-cover"
+          />
+
+          <!-- Row 2 -->
+          <img
+            src="./assets/images/Instructor3.png"
+            alt="Instructor 3"
+            class="w-[48%] h-[48%] rounded-3xl object-cover"
+          />
+          <img
+            src="./assets/images/Instructor4.png"
+            alt="Instructor 4"
+            class="w-[48%] h-[48%] rounded-3xl object-cover"
+          />
+          <!-- Row 3 -->
+          <img
+            src="./assets/images/Instructor5.png"
+            alt="Instructor 5"
+            class="w-[48%] h-[48%] rounded-3xl object-cover"
+          />
+          <img
+            src="./assets/images/Instructor6.png"
+            alt="Instructor 6"
+            class="w-[48%] h-[48%] rounded-3xl object-cover"
+          />
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
